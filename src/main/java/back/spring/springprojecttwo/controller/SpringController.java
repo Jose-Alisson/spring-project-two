@@ -30,7 +30,7 @@ public class SpringController {
     }
 
     @PostMapping("/pessoa")
-    public ResponseEntity<Pessoa> posPessoa(@RequestBody Pessoa pessoa){
+    public ResponseEntity<Pessoa> postPessoa(@RequestBody Pessoa pessoa){
         return ResponseEntity.ok().body(pessoa);
     }
 }
